@@ -1,0 +1,114 @@
+*{margin:0;padding:0}
+img{max-width:100%;
+}
+nav{    background: linear-gradient(white,#bbddec);
+    border-bottom: 3px solid #54b0da;
+}
+#menu_content{list-style:none;float:right;}
+#menu_content li{display:table-cell;padding:20px;position:relative;}
+#menu_content li a{text-decoration:none;text-transform:uppercase;color:black;}
+#logo_image{    
+    width: 240px;
+    float: left;
+    margin-bottom: -92px;
+    margin-top: -85px;
+}
+#main_menu-bar{width:1170px;margin:auto;display:table}
+
+#menu_content li:hover{background:orange;color:white;transition:1s;border-radius:5px}
+
+#Sub_menu{    background:green;left:0;
+    width: 200px;
+    position: absolute;
+    top: 58px;border-top:2px solid #2ba8e0;transform:scaley(0);transform-origin:top;opacity:0}
+#Sub_menu li{float:left;padding:10px;}
+#Sub_menu li a{color:white;}
+#menu_content li:hover #Sub_menu{left:0;background:green;transform:scaley(1);transition:0.5s;opacity:1;
+box-shadow:1px 3px 8px 1px black}
+ul#Sub_menu li:hover a{padding-left:10px}
+
+section.overly-backgroubdtext{background:
+linear-gradient(#00000075,#00000075),
+linear-gradient(#00000075,#00000075),
+url(../image/nyc5.jpg);
+height:500px;font-family:arial black;text-transform:uppercase;text-align:center;
+font-size:30px;background-repeat:no-repeat;background-size:cover;}
+section.overly-backgroubdtext h1{margin-top:200px;position:absolute;color:#908a8ac9;left:600px;
+text-shadow:5px 5px 5px black;}
+section.overly-backgroubdtext:hover{background:
+linear-gradient(#00000075,#00000075),
+linear-gradient(#00000075,#00000075),
+url(../image/New-York-City-Street-Wallpapers-HD.jpg);
+background-repeat:no-repeat;background-size:cover;transform:scale(0.9);transition:all 2s}
+section.overly-backgroubdtext:hover h1{color:green;text-shadow:5px 5px 5px black;}
+
+#design_shape{background:green;color:white;height:300px;font-family:arial;font-size:30px;text-align:center;padding:40px}
+#design_shape h3{margin-bottom:15px;}
+#design_shape2{background:orange;color:white;height:300px;font-family:arial;font-size:30px;text-align:center;padding:40px;}
+#design_shape2 h3,p{    position: relative;
+    z-index: 1;
+    top: -7px;}
+div#design_shape2:before {
+    content: "";
+    position: absolute;
+    background: orange;
+    width: 986px;
+    height: 146px;
+    left: 0px;
+    top: 871px;
+transform: skewy(8deg);}
+div#design_shape2:after {
+    content: "";
+    position: absolute;
+    background: orange;
+    width: 986px;
+    height: 146px;
+    right: 0px;
+    top: 871px;
+transform: skewy(-8deg);}
+
+
+
+
+.whole_section{background:#a09898;margin-top:0px;padding:30px}
+.whole_div{background:#e4e0e0;width:300px;padding:30px;font-family:arial;text-align:center;
+box-shadow: -1px 8px 14px 2px black;display:inline-block;float:left;margin-right:30px;margin-bottom:30px;border-radius:8px}
+.content_title h2{font-family:arial black;text-transform:uppercase;padding:20px;text-align:center;font-size:30px}
+#div_tittle{font-family:arial black;margin-bottom:10px;text-align:center;text-transform:uppercase}
+.whole_div:hover{background:green;color:white;transform:scale(1.07);transition:0.6s}
+
+
+footer{margin-top:70px;background:#000000d6;color:white;padding:20px 0px;}
+footer h2{font-family:arial black;font-size:20px;text-transform:uppercase;border-bottom:1px solid #ddd;padding:10px}
+footer p{font-family:arial;margin-top:20px}
+
+.footerblock1{width:250px;display:inline-block;padding:0px 20px;float:left}
+
+#link_service{list-style:none;margin-top:10px}
+#link_service a{color:gray;text-decoration:none;}
+#link_service li{border-bottom:1px solid #949191}
+#link_service a:hover{color:white}
+#link_service li:last-child{border:none}
+
+#subsceibeblock{margin-top:20px;padding-bottom:0px 10px;overflow:hidden}
+#subsceibeblock input{width:100%;padding:5px}
+#subscri_bebutton{background:red;color:white;border:1px solid white;padding:10px 0px;box-shadow:5px 5px 5px 5px black}
+#subscri_bebutton:hover{padding:8px;transition:0.5s;background:green}
+#getaquate{background:#144052;text-transform:uppercase;font-family:aral;text-decoration:none;color:white;padding:15px;
+    position: relative;
+    top: -21px;left: 490px;}
+#getaquate:before {
+    content: "";
+    position: absolute;
+    border-right: 20px solid #0a3c37;
+    border-top: 16px solid white;
+    left: -20px;
+top: 0px;}
+	
+#getaquate:after {
+    content: "";
+    position: absolute;
+    border-left: 20px solid #0a3c37;
+    border-top: 16px solid white;
+    left: 132px;
+top: 0px;}	
